@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.19.0/dist/full.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <header>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a><i class="fa-solid fa-arrow-right"></i> Item 1</a></li>
+                  <li>
+                    <a>Parent</a>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl">daisyUI</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Item 1</a></li>
+                <li>
+                  <details>
+                    <summary>Parent</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>Item 3</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn">Button</a>
+            </div>
+          </div>
+    </header>
+
+    <section class="bg-cover bg-center py-20" style="background-image: url('your-image-path.jpg');">
+        <div class="container mx-auto text-center text-white">
+            <h2 class="text-4xl font-bold">A barn house of this design has a striking appearance</h2>
+            <p class="mt-4">Experience the blend of contemporary design and functional living spaces.</p>
+            <button class="btn btn-success mt-8">View Details</button>
+        </div>
+    </section>
+
+    <section class="py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-2xl font-bold">We design thoughtful, livable spaces</h3>
+            <p class="mt-4 text-gray-600">Transforming everyday spaces into stunning homes.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <div class="shadow-lg p-6 bg-white rounded-lg">
+                    <h4 class="text-xl font-bold">Commercial</h4>
+                    <p class="mt-2">Developing innovative commercial spaces.</p>
+                </div>
+                <div class="shadow-lg p-6 bg-white rounded-lg">
+                    <h4 class="text-xl font-bold">Residential</h4>
+                    <p class="mt-2">Creating comfortable and stylish homes.</p>
+                </div>
+                <div class="shadow-lg p-6 bg-white rounded-lg">
+                    <h4 class="text-xl font-bold">Interiors</h4>
+                    <p class="mt-2">Designing interiors that reflect your style.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-200 py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-2xl font-bold mb-8">Our Works Process</h3>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <h4 class="text-xl font-bold text-green-500">Concept</h4>
+                    <p class="mt-2">Understanding your needs and crafting a vision.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <h4 class="text-xl font-bold text-yellow-500">Design Process</h4>
+                    <p class="mt-2">Turning concepts into detailed designs.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <h4 class="text-xl font-bold text-pink-500">Supervision</h4>
+                    <p class="mt-2">Ensuring the project is on track and meets standards.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <h4 class="text-xl font-bold text-blue-500">Budget Planning</h4>
+                    <p class="mt-2">Optimizing resources for cost-effective solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-2xl font-bold">Our Latest Portfolio</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <img src="portfolio-image1.jpg" alt="Portfolio 1" class="rounded-t-lg">
+                    <h4 class="text-xl font-bold mt-4">Commercial</h4>
+                    <p class="mt-2">A modern office space designed with productivity in mind.</p>
+                    <button class="btn btn-success mt-4">View Details</button>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <img src="portfolio-image2.jpg" alt="Portfolio 2" class="rounded-t-lg">
+                    <h4 class="text-xl font-bold mt-4">Residential</h4>
+                    <p class="mt-2">A cozy and elegant family home with modern amenities.</p>
+                    <button class="btn btn-success mt-4">View Details</button>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <img src="portfolio-image3.jpg" alt="Portfolio 3" class="rounded-t-lg">
+                    <h4 class="text-xl font-bold mt-4">Interiors</h4>
+                    <p class="mt-2">A luxurious living room with a contemporary touch.</p>
+                    <button class="btn btn-success mt-4">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h3 class="text-2xl font-bold">Read Our Articles and News</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <img src="news-image1.jpg" alt="News 1" class="rounded-t-lg">
+                    <h4 class="text-xl font-bold mt-4">How to choose the furniture for your new home</h4>
+                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <img src="news-image2.jpg" alt="News 2" class="rounded-t-lg">
+                    <h4 class="text-xl font-bold mt-4">Top 5 Interior Design Trends for 2024</h4>
+                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <img src="news-image3.jpg" alt="News 3" class="rounded-t-lg">
+                    <h4 class="text-xl font-bold mt-4">Innovative ways to redesign your kitchen</h4>
+                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h3 class="text-2xl font-bold text-center mb-8">Let's Discuss Next Project</h3>
+            <form class="space-y-4 max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <div class="flex gap-4">
+                    <input type="text" placeholder="First Name" class="input input-bordered w-full">
+                    <input type="text" placeholder="Last Name" class="input input-bordered w-full">
+                </div>
+                <input type="email" placeholder="Email" class="input input-bordered w-full">
+                <textarea placeholder="Project Description" class="textarea textarea-bordered w-full"></textarea>
+                <button class="btn btn-success w-full">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 py-6">
+        <div class="container mx-auto text-center text-white">
+            <p>&copy; 2024 Rinterio. All rights reserved.</p>
+            <div class="space-x-4 mt-4">
+                <a href="#" class="hover:text-green-500">Privacy</a>
+                <a href="#" class="hover:text-green-500">Terms</a>
+                <a href="#" class="hover:text-green-500">Contact</a>
+            </div>
+            <button class="btn btn-success mt-4">Book Consult</button>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
+<header class="md:container mx-auto">
+    <nav>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+                </div>
+                <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <li ><a>Home</a></li>
+                <li><a>Service</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <button><i class="fa-solid fa-arrow-right"></i>
+                    Rinterio
+                </button>
+            </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li class="font-bold"><a>Home</a></li>
+                
+                <li><a>Shop</a></li>
+                <li><a>News</a></li>
+                <li><a>Contact Us</a></li>
+            </ul>
+            </div>
+            <div class="navbar-end">
+            <a class="btn  bg-bike-primary text-white">Login</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
+        </div>
+        <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        <li ><a>Home</a></li>
+        <li><a>Service</a></li>
+        <li><a>Portfolio</a></li>
+        <li><a>Blogs</a></li>
+        <li><a>Contact Us</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="">
+        <img class="" src="assets/banner.png" alt="" srcset="">
+
+        <h3>A barn house of this design has a <br> striking appearance</h3>
+
+        <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+
+        <button class="bg-lime-400 px-3 py-3 rounded-full font-extrabold ">
+            View Details <i class="fa-solid fa-arrow-right -rotate-45 
+
+            "></i>
+        </button>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class=" bg-gray-100 flex justify-between px-40 md:flex-col-1">
+        <div class="flex flex-col-2 md:flex-col-1 text-center">
+
+            <!-- card -->
+            
+            <div class=" ">
+                <button class="bg-slate-200 rounded-full py-1 px-3"><i class="fa-solid fa-arrow-right 
+
+                    "></i>   About Us</button>
+                <h3 class="font-extrabold text-4xl">We design thoughtful, <br> liveable spaces</h3>
+                <p>The barn house captivates with its blend of rustic charm and <br>
+                    modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+                    <div class="card card-side bg-base-100 shadow-xl">
+                        <figure>
+                        <img
+                            src="assets/commercial.png"
+                            alt="" />
+                        </figure>
+                        <div class="card-body">
+                        <h2 class="card-title">Commercial</h2>
+                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        
+                        </div>
+                    </div>
+
+
+                    <!-- card-2 -->
+
+                    <div class="card card-side bg-base-100 shadow-xl ">
+                        <figure>
+                        <img
+                            src="assets/residential.png"
+                            alt="" />
+                        </figure>
+                        <div class="card-body">
+                        <h2 class="card-title">Commercial</h2>
+                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        
+                        </div>
+
+                        
+                    </div>
+                    
+
+                
+            </div>
+
+            
+            
+            
+        </div>
+        <div class=""><img src="assets/Rectangle.png" alt=""></div>
+    </div>
+
+
+
+
+
+    py-8 lgpy-24
